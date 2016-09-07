@@ -16,7 +16,7 @@ goto antergos_boot
 
 :antergos_boot
 kernel ${memdisk} iso raw
-initrd http://repo.antergos.info/iso/release/antergos-minimal-${antergos_version}-${antergos_arch}.iso
+initrd http://wynsrv.antergos.info/iso/release/antergos-minimal-${antergos_version}-${antergos_arch}.iso
 boot
 goto antergos_exit
 
