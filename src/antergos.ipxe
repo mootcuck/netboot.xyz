@@ -10,7 +10,6 @@ set os Antergos
 set antergos_version 2016.09.03
 menu ${os} Installers
 item x86_64 ${space} ${os} ${antergos_version} Minimal 64bit [ISO]
-item i686 ${space} ${os} ${antergos_version} Minimal 32bit [ISO]
 choose antergos_arch || goto antergos_exit
 goto antergos_boot
 
